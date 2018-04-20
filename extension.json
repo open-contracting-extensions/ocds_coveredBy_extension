@@ -1,0 +1,15 @@
+{
+  "name": {
+    "en": "Covered By"
+  },
+  "description": {
+    "en": "Adds a field to indicate the treaties, laws, regulations or other instruments that the contracting process is covered by."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_coveredBy_extension"
+  },
+  "compatibility": [
+    "1.0",
+    "1.1"
+  ]
+}
