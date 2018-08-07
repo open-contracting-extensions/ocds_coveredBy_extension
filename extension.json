@@ -13,5 +13,8 @@
   ],
   "codelists": [
     "coveredBy.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
