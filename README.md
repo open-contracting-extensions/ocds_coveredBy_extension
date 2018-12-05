@@ -16,10 +16,16 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
 
 ## Example
 
-```eval_rst
-.. jsoninclude:: docs/examples/example.json
-   :jsonpointer: 
-   :expand: 
+The `tender/coveredBy` field is an array of strings, whose values are selected from the `coveredBy.csv` open codelist.
+
+```json
+{
+  "tender": {
+    "coveredBy": [
+      "GPA"
+    ]
+  }
+}
 ```
 
 ## Issues
