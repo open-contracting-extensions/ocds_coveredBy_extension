@@ -6,7 +6,7 @@ This extension adds a field to indicate the treaties, laws, regulations or other
 
 A treaty, law, regulation or other instrument may require that a buyer indicate that a contracting process is covered by it.
 
-The `tender/coveredBy` field should be used to meet such requirements.
+The `tender.coveredBy` field should be used to meet such requirements.
 
 ## Legal context
 
@@ -16,7 +16,7 @@ The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/mem
 
 ## Example
 
-The `tender/coveredBy` field is an array of strings, whose values are selected from the `coveredBy.csv` open codelist.
+The `tender.coveredBy` field is an array of strings, whose values are selected from the `coveredBy.csv` open codelist.
 
 ```json
 {
