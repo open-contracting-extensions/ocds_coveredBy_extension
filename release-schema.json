@@ -4,7 +4,7 @@
       "properties": {
         "coveredBy": {
           "title": "Covered by",
-          "description": "The treaties, laws, regulations or other instruments that the contracting process is covered by.",
+          "description": "The treaties that the contracting process is covered by.",
           "type": [
             "array",
             "null"

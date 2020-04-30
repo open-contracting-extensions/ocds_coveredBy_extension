@@ -1,12 +1,12 @@
 # Covered By
 
-This extension adds a field to indicate the treaties, laws, regulations or other instruments that the contracting process is covered by.
+This extension adds a field to indicate the treaties that the contracting process is covered by.
 
 ## Usage
 
-A treaty, law, regulation or other instrument may require that a buyer indicate that a contracting process is covered by it.
+A treaty can require a member to indicate that a contracting process is covered by it. The `tender.coveredBy` field should be used to meet such requirements.
 
-The `tender.coveredBy` field should be used to meet such requirements.
+To disclose other laws, regulations, etc. that makes the process legal (e.g. an EU directive) please use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension).
 
 ## Legal context
 
