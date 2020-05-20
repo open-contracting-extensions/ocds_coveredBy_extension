@@ -2,11 +2,9 @@
 
 This extension adds a field to indicate the treaties that the contracting process is covered by.
 
-## Usage
+A treaty, like the Agreement on Government Procurement (GPA), can require a member to indicate that a contracting process is covered by it. The `tender.coveredBy` field should be used to meet such requirements.
 
-A treaty can require a member to indicate that a contracting process is covered by it. The `tender.coveredBy` field should be used to meet such requirements.
-
-To disclose other laws, regulations, etc. that makes the process legal (e.g. an EU directive) please use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension).
+To disclose the laws or regulations that govern the contracting process and that grant legal authority to the procuring entity, use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension) instead.
 
 ## Legal context
 
