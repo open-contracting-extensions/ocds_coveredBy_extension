@@ -6,6 +6,16 @@ A treaty, like the Agreement on Government Procurement (GPA), can require a memb
 
 To disclose the laws or regulations that govern the contracting process and that grant legal authority to the procuring entity, use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension) instead.
 
+## Guidance
+
+If you need to refer to a treaty that is not in the `coveredBy` codelist:
+
+1. If the treaty has a national or subnational scope, pick a relevant [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g `CA` for Canada).
+1. If the treaty has a subnational scope, pick a relevant [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) (e.g `NT` for [Northern Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), a province of Canada).
+1. Concatenate the code(s) to the acronym of the treaty, separating each part with a dash (e.g `CA-NT-BPI`).
+1. Add this code to the `tender.coveredBy` array.
+1. Document the new code (see [Extending open codelists](https://standard.open-contracting.org/latest/en/schema/codelists/)).
+
 ## Legal context
 
 The [Revised Agreement on Government Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) includes: "each notice of intended procurement shall include … l. an indication that the procurement is covered by this Agreement."
@@ -31,6 +41,10 @@ The `tender.coveredBy` field is an array of strings, whose values are selected f
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-11-04
+
+* Add guidance on the creation of new codes for the `coveredBy` codelist.
 
 ### 2020-04-24
 
