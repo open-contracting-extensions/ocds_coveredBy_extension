@@ -12,7 +12,7 @@ If you need to refer to a treaty that is not in the `coveredBy` codelist:
 
 1. If the treaty has a national or subnational scope, pick a relevant [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g "CA" for Canada).
 1. If the treaty has a subnational scope, pick a relevant [ISO 3166-2 region code](https://en.wikipedia.org/wiki/ISO_3166-2) (e.g "NT" for [Northern Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), a province of Canada).
-1. Concatenate the code(s) to the acronym of the treaty, separating each part with a dash (e.g "CA-NT-BPI").
+1. Concatenate the code(s) to the acronym of the treaty, separating each part with a dash (e.g "CA-NT-BIP").
 1. Add this code to the `tender.coveredBy` array.
 1. Document the new code (see [Extending open codelists](https://standard.open-contracting.org/latest/en/schema/codelists/)).
 
