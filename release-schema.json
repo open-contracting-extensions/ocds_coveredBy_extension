@@ -24,7 +24,7 @@
       "properties": {
         "coveredBy": {
           "title": "Covered by",
-          "description": "The treaties and directives that the contracting process for this lot is covered by.",
+          "description": "The treaties and directives that the lot is covered by.",
           "type": [
             "array",
             "null"
