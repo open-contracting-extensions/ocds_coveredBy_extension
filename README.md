@@ -2,7 +2,7 @@
 
 This extension adds a field to indicate the treaties or directives that the contracting process is covered by.
 
-A treaty, like the Agreement on Government Procurement (GPA), can require a member to indicate that a contracting process is covered by it. The `coveredBy` field should be used to meet such requirements.
+A treaty, like the Agreement on Government Procurement (GPA), can require a member to indicate that a contracting process is covered by it. Similarly, a legislative standard for publishing procurement data, like [eForms](https://single-market-economy.ec.europa.eu/single-market/public-procurement/digital-procurement/eforms_en) in the European Union, can allow contracting authorities to indicate that a lot is covered by a directive, like the [Clean Vehicles Directive](https://transport.ec.europa.eu/transport-themes/clean-transport-urban-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en). The `coveredBy` field should be used to meet such requirements.
 
 To disclose the laws or regulations that govern the contracting process and that grant legal authority to the procuring entity, use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension) instead.
 
