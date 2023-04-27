@@ -2,7 +2,7 @@
 
 This extension adds a field to indicate the international legal instruments that the contracting process is covered by.
 
-For example, the Agreement on Government Procurement (GPA) is a treaty that requires members to indicate whether a contracting process is covered by it. The European Union's Clean Vehicles Directive is a legal act that provides for member states to indicate associated information in procurement notices. The `coveredBy` field should be used to meet such requirements.
+For example, the Agreement on Government Procurement (GPA) is a treaty that requires members to indicate whether a contracting process is covered by it. The Clean Vehicles Directive is a legal act that provides for member states of the European Union to indicate associated information in procurement notices. The `coveredBy` field should be used to meet such requirements.
 
 To disclose the laws or regulations that govern the contracting process and that grant legal authority to the procuring entity, use the [legalBasis extension](https://github.com/open-contracting-extensions/ocds_legalBasis_extension) instead.
 
@@ -67,7 +67,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-03-02
 
-* Add "EU-CVD" to the `coveredBy` codelist.
+* Add 'EU-CVD' to the `coveredBy` codelist.
 * Add `coveredBy` to the `Lot` object.
 
 ### 2020-11-04
