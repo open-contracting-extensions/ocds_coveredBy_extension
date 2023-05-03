@@ -24,8 +24,6 @@ The [Revised Agreement on Government Procurement](https://www.wto.org/english/do
 
 The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the GPA, and as such its [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Public contracts — setting out clear ground rules) includes: "Part C: Information to be included in contract notices … 29. Indication whether the contract is covered by the GPA."
 
-In the European Union, this extension's fields correspond to [eForms BT-115 (GPA Coverage) and BT-717 (Clean Vehicles Directive)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields.
-
 ## Example
 
 The `coveredBy` field is an array of strings, whose values are selected from the `coveredBy.csv` open codelist.
