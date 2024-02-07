@@ -63,6 +63,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-02-07
+
+* Add 'CPTPP' to the `coveredBy` codelist.
+
 ### 2023-03-02
 
 * Add 'EU-CVD' to the `coveredBy` codelist.
