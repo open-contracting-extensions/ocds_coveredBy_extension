@@ -63,6 +63,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-10-08
+
+* Add 'EU-FSR' to the `coveredBy` codelist.
+
 ### 2024-02-07
 
 * Add 'CPTPP' to the `coveredBy` codelist.
