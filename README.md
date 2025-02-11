@@ -65,15 +65,15 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2024-10-08
 
-* Add 'EU-FSR' to the `coveredBy` codelist.
+* Add 'EU-FSR' code to the `coveredBy` codelist.
 
 ### 2024-02-07
 
-* Add 'CPTPP' to the `coveredBy` codelist.
+* Add 'CPTPP' code to the `coveredBy` codelist.
 
 ### 2023-03-02
 
-* Add 'EU-CVD' to the `coveredBy` codelist.
+* Add 'EU-CVD' code to the `coveredBy` codelist.
 * Add `coveredBy` to the `Lot` object.
 
 ### 2020-11-04
