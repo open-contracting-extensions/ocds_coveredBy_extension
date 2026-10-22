@@ -63,6 +63,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2026-10-21
+
+* Add 'EU-EED' code to the `coveredBy` codelist.
+
 ### 2024-10-08
 
 * Add 'EU-FSR' code to the `coveredBy` codelist.
